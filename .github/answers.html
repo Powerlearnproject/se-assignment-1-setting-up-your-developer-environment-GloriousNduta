@@ -1,0 +1,96 @@
+This document provides a step-by-step guide to setting up my developer environment, including configurations, customizations, and troubleshooting steps. It also includes a sample project initialized with Git and the necessary configuration files in a GitHub repository.
+
+Prerequisites
+Before starting, I ensured I have:
+
+A computer with internet access
+Basic knowledge of the command line
+A GitHub account
+
+Step-by-Step Instructions
+1. Install Git
+
+git version 2.44.0.windows.1
+
+Download Git from git-scm.com.
+Run the installer and followed the prompts, choosing the default options.
+
+2. Set Up Git
+
+Open the Terminal (or Git Bash on Windows) and configure your Git username and email:
+
+git config --global user.name "GloriousNduta"
+git config --global user.email "muiruriglorious@gmail.com"
+
+4. Install a Code Editor
+
+ Visual Studio Code:
+
+Downloaded from https://code.visualstudio.com/Download
+Installed the application by following the installer instructions.
+
+5.Installed Python from http://wwww.python.org
+
+6.Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
+
+7. Initialize a Sample Project
+Create a project directory:
+
+Git Bash
+Copy code
+mkdir sample-project
+cd sample-project
+
+8. Initialize a Git repository:
+
+git init
+
+
+9. Set Up Visual Studio Code
+
+ Open the project in Visual Studio Code:
+ git Bash
+code .
+
+10. Install useful extensions:
+
+Go to the Extensions view by clicking the Extensions icon in the Activity Bar.
+Search for and install the following extensions:
+Liveserver
+Prettier
+Code formatter
+
+11. Push the Project to GitHub
+
+12. Create a new repository on GitHub.
+
+13. Link the local repository to the GitHub repository:
+
+Git Bash
+git remote add origin https://github.com/GloriousNduta/sample-project.git
+
+14. Commit and push the initial project files:
+
+Git Bash
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+Troubleshooting Steps
+Issue: Git Not Recognized in Command Line
+Solution: Ensured Git is installed correctly and added to the system PATH. 
+
+Issue: Extensions Not Installing in Visual Studio Code
+Solution: Check my internet connection and ensured there are no network restrictions.I  Restarted Visual Studio Code and tried again.
+
+Reflection on Challenges
+During the setup process, some challenges included ensuring all installations were up-to-date and resolving path issues for Git on Windows. The strategies I employed to overcome these challenges included following official documentation, using community forums for troubleshooting, and restarting the system when necessary.
+
+Sample Project Repository
+The sample project repository can be found on GitHub: sample-project
+
+Conclusion
+
+Setting up a developer environment involves multiple steps, from installing necessary software to configuring and customizing your workspace. This guide provides a comprehensive approach to ensure a smooth setup process.
+
+
